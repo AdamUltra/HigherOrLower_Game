@@ -10,7 +10,6 @@ while lose is False:
     print(f"Compare A: {a['name']}, a {a['description']}, from {a['country']}")
     print(Art.vs)
     print(f"Against B: {b['name']}, a {b['description']}, from {b['country']}")
-    print(a['follower_count'], b['follower_count'])
     Guess = input("Who has more followers? Type 'A' or 'B': ").lower()
 
 
